@@ -1,0 +1,83 @@
+baseurl: https://shenoybr.github.io/hugo-goa-demo/
+builddrafts: no
+canonifyurls: no
+languageCode: en-US
+contentdir: content
+layoutdir: layouts
+publishdir: public
+author: Erlich Bachman
+title: Erlich Bachman
+theme: hugo-goa
+disqusShortname: https-shenoybr-github-io-hugo-goa-demo
+googleAnalytics: XYZ
+enableRobotsTXT: yes
+params:
+  author: Erlich Bachman
+  authorimage: headshot.jpg
+  dateformat: Jan 2, 2006
+  description: Now @Pied Piper. Previously @Hacker Hostel, @Bachmanity and @Aviato.
+    <br/> "What is F times 5? It's Fleventy-five."
+  extra:
+    copyright: © 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/).
+    displayrssicon: yes
+    highlightjs: yes
+    poweredby: yes
+    socialmarkup: yes
+    toc: yes
+  intro: Startup Guru Extraordinaire
+  meta:
+    description: Simple minimalist theme
+    keywords: minimalist,blog,goa,hugo,developer
+  social:
+    bitbucket: <username>
+    buymeacoffee: <username>
+    email: you@example.com
+    facebook: <username>
+    fivehundredpx: <username>
+    flickr: <username>
+    foursquare: <username>
+    github: <username>
+    gitlab: <username>
+    goodreads: <username>
+    google: <username>
+    googlescholar: <account_id>
+    hackernews: <username>
+    holopin: <username>
+    instagram: <username>
+    kaggle: <username>
+    keybase: <username>
+    kickstarter: <username>
+    lastfm: <username>
+    linkedin: <username>
+    orcid: 0123-4567-8901-2345
+    patreon: <username>
+    pgp: <key_fingerprint>
+    pintrest: <username>
+    reddit: <username>
+    skype: <username>
+    snapchat: <username>
+    soundcloud: <username>
+    stackoverflow: <username>
+    steam: <username>
+    strava: <username>
+    telegram: <username>
+    tumblr: <username>
+    twitch: <username>
+    twitter: <username>
+    whatsapp: <username>
+    xing: <username>
+    youtube: <channelid>
+menu:
+  main:
+    - identifier: blog
+      name: blog
+      url: /blog/
+      weight: 100
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 200
+    - identifier: coderag
+      name: coderag
+      url: /coderag/
+      weight: 300
